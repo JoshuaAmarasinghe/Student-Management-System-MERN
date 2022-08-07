@@ -1,0 +1,33 @@
+.blue-table table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 15px;
+  border: 10px
+}
+
+.blue-table tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.blue-table th {
+  text-align: left;
+  padding: 12px 12px 12px 12px;
+  background-color: #c8cfd4;
+  color: white;
+}
+
+.blue-table table,
+.blue-table td {
+  padding: 8px 8px 8px 20px;
+  border: 100px
+}
+
+.box-view-student {
+  border-radius: 1px;
+  overflow: hidden;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
